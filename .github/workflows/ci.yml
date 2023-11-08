@@ -56,8 +56,10 @@ jobs:
         uses: ./
         with:
           input-text: |
-            #### This is a heading
-            This is a paragraph with **bold** and *italic* text.
+            **Some bold things**
+            *Some italic stuff*
+            ## H2
+            <http://google.com>
 
       - run: echo "${{ steps.md2jira.outputs.output-text }}"
 

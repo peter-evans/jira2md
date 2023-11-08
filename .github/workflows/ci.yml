@@ -60,6 +60,7 @@ jobs:
             *Some italic stuff*
             ## H2
             <http://google.com>
+          mode: md2jira
 
       - run: echo "${{ steps.md2jira.outputs.output-text }}"
 

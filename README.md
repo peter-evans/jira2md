@@ -3,6 +3,8 @@
 
 A GitHub action to convert between Jira text formatting and GitHub flavored markdown
 
+This action is a wrapper around the [jira2md](https://www.npmjs.com/package/jira2md) npm package.
+
 ## Usage
 
 ### Convert Jira -> markdown

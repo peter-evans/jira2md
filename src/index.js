@@ -21,6 +21,16 @@ async function run() {
         core.setOutput("output-text", jira);
         break;
       }
+      case "md2html": {
+        const html = j2m.md_to_html(inputs.inputText);
+        core.setOutput("output-text", html);
+        break;
+      }
+      case "jira2html": {
+        const html = j2m.jira_to_html(inputs.inputText);
+        core.setOutput("output-text", html);
+        break;
+      }
       default:
         core.setFailed(`Unknown mode: ${inputs.mode}`);
     }

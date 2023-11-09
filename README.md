@@ -3,7 +3,7 @@
 
 A GitHub action to convert between Jira text formatting and GitHub flavored markdown
 
-This action is a wrapper around the [jira2md](https://www.npmjs.com/package/jira2md) npm package.
+This action is a wrapper around the [jira2md](https://github.com/kylefarris/J2M) npm package.
 
 ## Usage
 
@@ -43,7 +43,7 @@ This action is a wrapper around the [jira2md](https://www.npmjs.com/package/jira
 | Name | Description | Default |
 | --- | --- | --- |
 | `input-text` | The input text to convert. | |
-| `mode` | The conversion mode; `jira2md` or `md2jira`. | `jira2md` |
+| `mode` | The conversion mode; `jira2md`, `md2jira`, `md2html` or `jira2html`. | `jira2md` |
 
 #### Outputs
 

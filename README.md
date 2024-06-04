@@ -10,7 +10,7 @@ This action is a wrapper around the [jira2md](https://github.com/kylefarris/J2M)
 ### Convert Jira -> markdown
 
 ```yml
-      - uses: peter-evans/jira2md@v1
+      - uses: peter-evans/jira2md@v2
         id: jira2md
         with:
           input-text: |
@@ -25,7 +25,7 @@ This action is a wrapper around the [jira2md](https://github.com/kylefarris/J2M)
 ### Convert markdown -> Jira
 
 ```yml
-      - uses: peter-evans/jira2md@v1
+      - uses: peter-evans/jira2md@v2
         id: md2jira
         with:
           input-text: |
